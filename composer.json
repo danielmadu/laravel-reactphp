@@ -1,0 +1,15 @@
+{
+    "name": "danielmadu/reactphp",
+    "description": "A package to use Laravel with ReactPHP",
+    "type": "library",
+    "require": {
+        "react/react": "^0.4.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Madureira",
+            "email": "daniel.madureira.batista@gmail.com"
+        }
+    ]
+}
