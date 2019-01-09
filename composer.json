@@ -3,7 +3,8 @@
     "description": "A package to use Laravel with ReactPHP",
     "type": "library",
     "require": {
-        "react/react": "^0.4.2"
+        "react/event-loop": "^1.0",
+        "react/http": "^0.8.3"
     },
     "license": "MIT",
     "authors": [
