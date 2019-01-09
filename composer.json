@@ -1,5 +1,5 @@
 {
-    "name": "danielmadu/reactphp",
+    "name": "danielmadu/laravel-reactphp",
     "description": "A package to use Laravel with ReactPHP",
     "type": "library",
     "require": {
@@ -8,8 +8,20 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Daniel Madureira",
+            "name": "Daniel Madureira Batista",
             "email": "daniel.madureira.batista@gmail.com"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ReactPHPLaravel\\Providers\\ServerServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "ReactPHPLaravel\\": "src/"
+        }
+    }
 }
