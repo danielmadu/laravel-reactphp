@@ -1,6 +1,8 @@
 # laravel-reactphp
 A package to use Laravel with ReactPHP
 
+> Note: This project is in beta stage! Feel free to report any issues you encounter.
+
 # How to use
 
 ## Install
